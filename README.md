@@ -24,7 +24,7 @@ Please note that you may also customize the navigation with your own style
 # Usage
 ### Create the Navigation
 ```html
-<div class="navigator">
+<div class="navigator"> <!-- .navigator is position:fixed by default so it'll floating on your screen -->
 	<div class="navi navi-item ind-1">
 		<span></span>
 		<a href="javascript:void(0)" class="action-scroll" data-target=".my-section-1">
