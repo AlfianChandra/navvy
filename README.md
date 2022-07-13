@@ -1,16 +1,24 @@
 # navvy.js
-navvy.js is a Page Section Navigator Javascript Plugin<br>
+navvy.js is a Page Section Navigator Javascript Plugin by Alfian Chandra | @alf.chd - @afc.dev<br>
 This plugin requires jQuery, please refer to https://jquery.com
 
 # Installation
 ### STEP 1: jQuery
 Include jQuery into Your project. Use CDN to integrate jquery real quick
-```<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>```
+```html
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+```
 
 ### STEP 2: navvy.js
-Include `navvy.js` into your code: `<script src='navvy.js'></script>`
+Include `navvy.js` into your code: 
+```html
+<script src='navvy.js'></script>
+```
 ### STEP 3: navvy.css
-Include <code>navvy.css</code> into Your project for navigation styling: `<link rel='stylesheet' href='navvy.css' />`
+Include <code>navvy.css</code> into Your project for navigation styling: 
+```html
+<link rel='stylesheet' href='navvy.css' />
+```
 Please note that you may also customize the navigation with your own style
 
 # Usage
@@ -19,19 +27,19 @@ Please note that you may also customize the navigation with your own style
 <div class="navigator">
 	<div class="navi navi-item ind-1">
 		<span></span>
-		<a href="javascript:void(0)" class="action-scroll" data-target=".vm-wrapper">
+		<a href="javascript:void(0)" class="action-scroll" data-target=".my-section-1">
 			<span>1</span>
 		</a>
 	</div>
 	<div class="navi navi-item ind-2">
 		<span></span>
-		<a href="javascript:void(0)" class="action-scroll" data-target=".vm-section">
+		<a href="javascript:void(0)" class="action-scroll" data-target=".my-section-2">
 			<span>2</span>
 		</a>
 	</div>
 	<div class="navi navi-item ind-3">
 		<span></span>
-		<a href="javascript:void(0)" class="action-scroll" data-target=".speech">
+		<a href="javascript:void(0)" class="action-scroll" data-target=".my-section-3">
 			<span>3</span>
 		</a>
 	</div>
